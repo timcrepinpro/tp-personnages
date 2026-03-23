@@ -19,5 +19,8 @@ class Program
 
         Magicien m1 = new Magicien("Merlin", 80, 200);
         m1.afficher();
+
+        g1.RecevoirDegat(30, 10);
+        g1.afficher();
     }
 }

@@ -25,5 +25,18 @@ class Personnage
         Console.WriteLine($"Nom: {nom}, Vie: {vie}");
     }
 
-    
+    public void RecevoirDegat(int degats, int reduction)
+    {
+        int degatsSubis = degats - reduction;
+        if (degatsSubis < 0)
+        {
+            degatsSubis = 0;
+        }
+        vie -= degatsSubis;
+        if (vie < 0)
+        {
+            vie = 0;
+        }
+    }
+
 }

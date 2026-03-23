@@ -14,4 +14,7 @@ class Guerrier : Personnage
         base.afficher();
         Console.WriteLine($"Armure: {armure}");
     }
+
+    
 }
+
