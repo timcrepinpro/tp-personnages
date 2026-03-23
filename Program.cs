@@ -22,5 +22,7 @@ class Program
 
         g1.RecevoirDegat(30, 10);
         g1.afficher();
+
+        m1.attaquer();
     }
 }
