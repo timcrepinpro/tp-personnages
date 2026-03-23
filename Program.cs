@@ -1,4 +1,6 @@
-﻿namespace program;
+﻿using System.Runtime.Serialization;
+
+namespace program;
 
 class Program
 {
@@ -11,5 +13,11 @@ class Program
         p1.afficher();
         p1.RecevoirDegat(20);
         p1.afficher();
+
+        Guerrier g1 = new Guerrier("arthur", 100, 50);
+        g1.afficher();
+
+        Magicien m1 = new Magicien("Merlin", 80, 200);
+        m1.afficher();
     }
 }

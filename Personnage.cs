@@ -4,6 +4,7 @@ class Personnage
     protected int vie;
 
 
+    public Personnage() { }
     public Personnage(string nom, int vie)
     {
         this.nom = nom;
@@ -23,4 +24,6 @@ class Personnage
     {
         Console.WriteLine($"Nom: {nom}, Vie: {vie}");
     }
+
+    
 }
