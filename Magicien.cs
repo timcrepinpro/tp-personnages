@@ -14,4 +14,8 @@ class Magicien : Personnage
         base.afficher();
         Console.WriteLine($"Mana: {mana}");
     }
+    public void LancerSort()
+    {
+        Console.WriteLine($"le magicien {nom} lance un sort !");
+    }
 }

@@ -14,7 +14,10 @@ class Guerrier : Personnage
         base.afficher();
         Console.WriteLine($"Armure: {armure}");
     }
-
+    public void Attaquer()
+    {
+        Console.WriteLine($"le guerrier {nom} attaque !");
+    }
     
 }
 
