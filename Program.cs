@@ -15,6 +15,20 @@ class Program
             new Magicien("Merlin", 80, 50)
         };
 
+        
+
+        Personnage m1 = new Magicien("Jean eude", 100, 50);
+       
+
+        
+
+        if (m1 is Magicien m2)
+        {
+            m2.GetMana();
+        }
+        
+
+
         foreach (var personnage in personnages)
         {
             if (personnage is Guerrier guerrier)

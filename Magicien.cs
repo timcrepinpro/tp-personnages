@@ -18,4 +18,12 @@ class Magicien : Personnage
     {
         Console.WriteLine($"le magicien {nom} lance un sort !");
     }
+    public int GetMana()
+    {
+        return mana;
+    }
+    public void setMana(int mana)
+    {
+        this.mana = mana;
+    }
 }

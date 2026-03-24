@@ -18,6 +18,14 @@ class Guerrier : Personnage
     {
         Console.WriteLine($"le guerrier {nom} attaque !");
     }
+    public int getArmure()
+    {
+        return armure;
+    }
+    public void setArmure(int armure)
+    {
+        this.armure = armure;
+    }
     
 }
 
