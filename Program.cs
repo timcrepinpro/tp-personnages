@@ -18,8 +18,9 @@ class Program
         
 
         Personnage m1 = new Magicien("Jean eude", 100, 50);
-       
-
+        Archer a1 = new Archer("Robin", 90, 80);
+        a1.afficher();
+        a1.Tirer();
         
 
         if (m1 is Magicien m2)
