@@ -8,6 +8,29 @@ class Program
     {
         Console.WriteLine("Hello, World!");
 
+        List<Personnage> personnages = new List<Personnage>
+        {
+            new Personnage("Jean eude", 100),
+            new Guerrier("Arthur", 100, 20),
+            new Magicien("Merlin", 80, 50)
+        };
+
+        foreach (var personnage in personnages)
+        {
+            if (personnage is Guerrier guerrier)
+            {
+                personnage.afficher();
+                guerrier.Attaquer();                
+            }
+            else if (personnage is Magicien magicien)
+            {
+                personnage.afficher();
+                magicien.LancerSort(); 
+            }
+        }
+
+
+        /*
 
         Personnage p1 = new Personnage("Jean eude", 100);
         p1.afficher();
@@ -23,6 +46,6 @@ class Program
         g1.RecevoirDegat(30, 10);
         g1.afficher();
 
-        m1.attaquer();
+        */
     }
 }
