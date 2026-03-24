@@ -43,7 +43,7 @@ class Program
             }
         }
 
-
+        Console.WriteLine(m1.ToString());
         /*
 
         Personnage p1 = new Personnage("Jean eude", 100);

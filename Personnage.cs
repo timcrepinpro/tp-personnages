@@ -38,6 +38,11 @@ class Personnage
             vie = 0;
         }
     }
+    public virtual string ToString()
+    {
+        return $"Nom : {nom}, Points de vie : {vie}";
+    }
+
 
     
 
